@@ -13,7 +13,7 @@ export default function About() {
         >
           <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Ff529a8d41c48433a8842edd118bb1058%2F2e592d763ac04425951e1ee3176d4793"
+              src="/placeholder.svg"
               alt="Siddhant Bajaj"
               loading="lazy"
               decoding="async"
