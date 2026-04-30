@@ -1,0 +1,38 @@
+name: Build Project
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build project
+        run: pnpm build
+
+      - name: Verify build output
+        run: |
+          if [ -d "dist/spa" ]; then
+            echo "✅ Build successful: dist/spa exists"
+          else
+            echo "❌ Build failed: dist/spa missing"
+            exit 1
+          fi
