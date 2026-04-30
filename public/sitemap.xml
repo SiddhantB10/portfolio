@@ -4,4 +4,28 @@
     <loc>https://siddhantbajajcv.com/</loc>
     <priority>1.00</priority>
   </url>
+  <url>
+    <loc>https://siddhantbajajcv.com/#about</loc>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://siddhantbajajcv.com/#projects</loc>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://siddhantbajajcv.com/#skills</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://siddhantbajajcv.com/#achievements</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://siddhantbajajcv.com/#certificates</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://siddhantbajajcv.com/#contact</loc>
+    <priority>0.90</priority>
+  </url>
 </urlset>

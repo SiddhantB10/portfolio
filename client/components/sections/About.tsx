@@ -13,7 +13,7 @@ export default function About() {
         >
           <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
             <img
-              src="/placeholder.svg"
+              src="/photo.jpeg"
               alt="Siddhant Bajaj"
               loading="lazy"
               decoding="async"
@@ -26,7 +26,7 @@ export default function About() {
                 About Me
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                I’m Siddhant Bajaj, a front‑end engineer focused on creating
+                I’m Siddhant Bajaj, a frontend engineer focused on creating
                 delightful, interactive user interfaces. I blend design and
                 engineering to deliver clean, performant experiences with a
                 futuristic aesthetic.
